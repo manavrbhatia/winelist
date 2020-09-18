@@ -111,6 +111,7 @@ def addBottle(fridge):
 			"Year": bottleYear
 			})
 	open("bottles.json", "w").write(json.dumps(json_object, sort_keys=True, indent=4, separators=(',', ': ')))
+	print("Success")
 
 
 def dumpList(fridge, rack):
